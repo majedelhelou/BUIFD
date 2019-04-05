@@ -1,0 +1,22 @@
+python test.py --color_mode gray --model R --max_train_noise 55 --epoch 49;
+python test.py --color_mode gray --model F --max_train_noise 55 --epoch 49;
+
+python test.py --color_mode gray --model R --max_train_noise 75 --epoch 49;
+python test.py --color_mode gray --model F --max_train_noise 75 --epoch 49;
+
+
+
+python test.py --color_mode color --model R --max_train_noise 55 --epoch 49;
+python test.py --color_mode color --model F --max_train_noise 55 --epoch 49;
+
+python test.py --color_mode color --model R --max_train_noise 75 --epoch 49;
+python test.py --color_mode color --model F --max_train_noise 75 --epoch 49;
+
+
+
+python test.py --color_mode gray --model R --max_train_noise 55 --epoch 49 --varying_noise True;
+python test.py --color_mode gray --model F --max_train_noise 55 --epoch 49 --varying_noise True;
+
+python test.py --color_mode gray --model R --max_train_noise 75 --epoch 49 --varying_noise True;
+python test.py --color_mode gray --model F --max_train_noise 75 --epoch 49 --varying_noise True;
+

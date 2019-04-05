@@ -1,0 +1,24 @@
+python train.py --net_mode R --noise_max 55 --color 1 --preprocess True;
+python train.py --net_mode F --noise_max 55 --color 1 --preprocess True;
+python train.py --net_mode R --noise_max 75 --color 1 --preprocess True;
+python train.py --net_mode F --noise_max 75 --color 1 --preprocess True;
+
+python train.py --net_mode R --noise_max 55 --color 0 --preprocess True;
+python train.py --net_mode F --noise_max 55 --color 0 --preprocess True;
+python train.py --net_mode R --noise_max 75 --color 0 --preprocess True;
+python train.py --net_mode F --noise_max 75 --color 0 --preprocess True;
+
+
+python test.py --color_mode color --model R --max_train_noise 55 --epoch 49;
+python test.py --color_mode color --model F --max_train_noise 55 --epoch 49;
+python test.py --color_mode color --model R --max_train_noise 75 --epoch 49;
+python test.py --color_mode color --model F --max_train_noise 75 --epoch 49;
+
+
+python test.py --color_mode gray --model R --max_train_noise 55 --epoch 49;
+python test.py --color_mode gray --model F --max_train_noise 55 --epoch 49;
+python test.py --color_mode gray --model R --max_train_noise 75 --epoch 49;
+python test.py --color_mode gray --model F --max_train_noise 75 --epoch 49;
+
+
+
