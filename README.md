@@ -46,3 +46,8 @@ python test.py --color_mode color --model F --max_train_noise 55 --epoch 49
 **Note:** You can set 'preprocess' to False (default setting) if it is *not* the first time you train a certain model, and the hdf5 file is already generated and saved in the code directory. Otherwise it needs to be set to True.
 
 
+### 4. BM3D comparison
+For comparisons with BM3D and CBM3D denoising, the authors' codes can be found [*on this link*](http://www.cs.tut.fi/~foi/GCF-BM3D/).
+
+
+
