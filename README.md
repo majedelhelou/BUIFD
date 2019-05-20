@@ -1,6 +1,6 @@
 # BUIFD
 
-This repository contains the neeeded files to reproduce the denoising results, with the pretrained networks, of the paper Blind Universal Image Fusion Denoiser (BUIFD), and to retrain and test any of the models.
+This repository contains the neeeded files to reproduce the denoising results, with the pretrained networks, of the paper Blind Universal Image Fusion Denoiser (BUIFD), **and** to retrain and test any of the models.
 ****
 The PyTorch implementation is based on that of the paper [*Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*](http://ieeexplore.ieee.org/document/7839189/). The repository of that implementation is found [*on this link*](https://github.com/SaoYan/DnCNN-PyTorch).
 ****
@@ -35,11 +35,11 @@ To re-train all 8 models with default settings, you can run:
 ```
 bash example_train_test
 ```
-Or you can individually train:
+Or you can train custom models individually:
 ```
 python train.py --net_mode F --noise_max 55 --color 1 --preprocess True
 ```
-which trains a BUIFD model with maximum training noise level 55, and then test it on the CBSD68 test set:
+which trains a BUIFD model with maximum training noise level 55. Then evaluate it on the CBSD68 test set:
 ```
 python test.py --color_mode color --model F --max_train_noise 55 --epoch 49
 ```
