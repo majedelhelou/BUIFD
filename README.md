@@ -2,7 +2,7 @@
 
 This repository contains the neeeded files to reproduce the denoising results, with the pretrained networks, of the paper Blind Universal Image Fusion Denoiser (BUIFD), **and** to retrain and test any of the models.
 ****
-The PyTorch implementation is based on that of the paper [*Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*](http://ieeexplore.ieee.org/document/7839189/). The repository of that implementation is found [*on this link*](https://github.com/SaoYan/DnCNN-PyTorch).
+The PyTorch implementation is based on that of the paper [*Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*](http://ieeexplore.ieee.org/document/7839189/). The repository of that implementation can be found [*on this link*](https://github.com/SaoYan/DnCNN-PyTorch).
 ****
 
 ### 1. Dependencies
@@ -47,7 +47,7 @@ python test.py --color_mode color --model F --max_train_noise 55 --epoch 49
 
 
 ### 4. BM3D comparison
-For comparisons with BM3D and CBM3D denoising, the authors' codes can be found [*on this link*](http://www.cs.tut.fi/~foi/GCF-BM3D/).
+For comparisons with BM3D and CBM3D denoising, the authors' code can be found [*on this link*](http://www.cs.tut.fi/~foi/GCF-BM3D/).
 
 
 
