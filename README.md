@@ -4,7 +4,7 @@ This repository contains the neeeded files to reproduce the denoising results wi
 
 Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning
 
-Contact author: [Majed El Helou](majedelhelou.github.io)
+Contact author: [Majed El Helou](www.majedelhelou.github.io)
 
 ****
 The PyTorch implementation is based on that of the paper [*Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*](http://ieeexplore.ieee.org/document/7839189/). The repository of that implementation can be found [*on this link*](https://github.com/SaoYan/DnCNN-PyTorch).
