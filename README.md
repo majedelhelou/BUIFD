@@ -2,7 +2,7 @@
 
 This repository contains the neeeded files to reproduce the denoising results with the pretrained networks, and to retrain and test any of the models, of the paper:
 
-**Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning**
+**[Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning](https://arxiv.org/abs/1907.03029)**
 
 Contact author: [Majed El Helou](http://majedelhelou.github.io)
 
