@@ -1,14 +1,11 @@
 # BUIFD
 
-This repository contains the neeeded files to reproduce the denoising results with the pretrained networks, and to retrain and test any of the models, of the paper:
+This repository contains the neeeded files to reproduce the denoising results with the pretrained networks, and to retrain and test any of the models, of the (TIP 2020) paper:
 
 **[Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning](https://arxiv.org/abs/1907.03029)**
 
 Contact author: [Majed El Helou](http://majedelhelou.github.io)
 
-****
-The PyTorch implementation is based on that of the paper *Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*. The repository of that implementation can be found [*on this link*](https://github.com/SaoYan/DnCNN-PyTorch).
-****
 
 ### 1. Dependencies
 * [PyTorch](http://pytorch.org/)
@@ -17,6 +14,10 @@ The PyTorch implementation is based on that of the paper *Beyond a Gaussian Deno
 * [HDF5 for Python](http://www.h5py.org/)
 
 ### 2. Reproduce results with pretrained models
+****
+The [*PyTorch implementation*](https://github.com/SaoYan/DnCNN-PyTorch) of DnCNN is based on that of the paper *Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising*.
+****
+
 The folder 'Inference_Pretrained' is sufficient on its own to re-run the paper's experiments and to visualize results.
 It contains all 8 models used in the paper, under 'Pretrained_Models', and the testing data under 'Data'.
 To re-run all denoising experiments you can run:
@@ -54,5 +55,17 @@ python test.py --color_mode color --model F --max_train_noise 55 --epoch 49
 ### 4. BM3D comparison
 For comparisons with BM3D and CBM3D denoising, the authors' code can be found [*on this link*](http://www.cs.tut.fi/~foi/GCF-BM3D/).
 
+### Citation
+If you find the work useful to your research, you can cite it as:
+```
+@article{el2020blind,
+  title={Blind universal {Bayesian} image denoising with {Gaussian} noise level learning},
+  author={El Helou, Majed and S{\"u}sstrunk, Sabine},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={4885--4897},
+  year={2020}
+}
+```
 
 
