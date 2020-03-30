@@ -1,10 +1,12 @@
 # BUIFD
 
-This repository contains the neeeded files to reproduce the denoising results with the pretrained networks, and to retrain and test any of the models, of the (TIP 2020) paper:
+This repository contains the neeeded files to reproduce the denoising results with the pretrained networks and to retrain and test models from the (TIP 2020) paper:
 
 **[Blind Universal Bayesian Image Denoising with Gaussian Noise Level Learning](https://arxiv.org/abs/1907.03029)**
 
 Contact author: [Majed El Helou](http://majedelhelou.github.io)
+
+The noise level learning and fusion techniques of our paper can be applied to different network architectures, and adapted to different problems. The example provided in this repository uses the DnCNN architecture, and is applied to additive Gaussian noise removal.
 
 
 ### 1. Dependencies
