@@ -58,15 +58,14 @@ python test.py --color_mode color --model F --max_train_noise 55 --epoch 49
 For comparisons with BM3D and CBM3D denoising, the authors' code can be found [*on this link*](http://www.cs.tut.fi/~foi/GCF-BM3D/).
 
 ### Citation
-If you find the work useful to your research, you can cite it as:
-```
-@article{el2020blind,
-  title={Blind universal {Bayesian} image denoising with {Gaussian} noise level learning},
-  author={El Helou, Majed and S{\"u}sstrunk, Sabine},
-  journal={IEEE Transactions on Image Processing},
-  volume={29},
-  pages={4885--4897},
-  year={2020}
+```bibtex
+@article{elhelou2020blind,
+    title   = {Blind universal {Bayesian} image denoising with {Gaussian} noise level learning},
+    author  = {El Helou, Majed and S{\"u}sstrunk, Sabine},
+    journal = {IEEE Transactions on Image Processing},
+    volume  = {29},
+    pages   = {4885--4897},
+    year    = {2020}
 }
 ```
 
